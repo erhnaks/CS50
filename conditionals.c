@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 int main(void) 
 {
-int x = 5;
+int x = 3;
 int y = 3;
 
 if (x > y){
