@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-const int N = 3;
+const int N = 3; // number of scores;
 
 float average(int array[]);
 
