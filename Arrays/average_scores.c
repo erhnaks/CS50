@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <cs50.h>
 
+// Lecture 2 Arrays Week 2 tutorial paused at 1:30:00
+
 const int N = 3; // number of scores;
 
 float average(int array[]);
