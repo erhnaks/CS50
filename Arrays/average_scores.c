@@ -16,14 +16,14 @@ int main(void)
   printf("Average: %f\n", average(scores));
 }
 
-// float average(int array[])
-// {
-//   int sum = 0;
-//   for (int i = 0; i < N; i++)
-//   {
-//     sum += array[i];
-//   }
+float average(int array[])
+{
+  int sum = 0;
+  for (int i = 0; i < N; i++)
+  {
+    sum += array[i];
+  }
 
-//   return sum / (float) N;
+  return sum / (float) N;
 
-// }
+}
