@@ -18,5 +18,4 @@ for(int i = 1; i <= length; i++)
   twice[i] = 2 * twice[i - 1];
   printf("%i\n", twice[i]);
 }
-
 }
