@@ -29,3 +29,18 @@ void triple (void)
 {
   global *= 3;
 }
+
+// overwriting a variable;
+
+int main (void)
+{
+  int foo = 4;
+  foo = triple(foo);
+}
+
+int triple (int x)
+{
+  return x * 3;
+}
+
+// above line will overwrite foo
